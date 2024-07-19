@@ -16,7 +16,7 @@ public class GameWindow extends JFrame{
         while (true){
             repaint();
             try {
-                Thread.sleep(200);
+                Thread.sleep(300);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
